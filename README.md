@@ -1,2 +1,2 @@
-# D-D-Compendium
-DM tool for campain
+# D&D-Compendium
+DM tool for campains 
