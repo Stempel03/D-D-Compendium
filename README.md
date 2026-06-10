@@ -152,4 +152,4 @@ Amulet|accessory|10500|Moc magiczna
 
 ```
 
-Plik exe znajduje się w folderze build
+Plik exe znajduje się w folderze build/debug/app.exe
