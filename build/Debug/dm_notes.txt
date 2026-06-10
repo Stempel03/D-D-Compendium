@@ -1,0 +1,3 @@
+SESSION|1|12-05-2026
+NOTE|Bohater: Aragorn|Uzyl mikstury leczenia w zlym momencie.|1|300|100
+NOTE|NPC: Karczmarz|Wspomnial o ukrytym skarbie w lochach.|2|550|150

@@ -1,0 +1,6 @@
+﻿  App.cpp
+  CombatTracker.cpp
+  draw_functions.cpp
+  main.cpp
+  Generowanie kodu...
+LINK : fatal error LNK1168: nie można otworzyć pliku C:\Users\lukas\source\repos\SFmlp\build\Debug\app.exe do zapisu
