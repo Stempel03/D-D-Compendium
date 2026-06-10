@@ -1,0 +1,4 @@
+Miecz|weapon|150|Zwykły miecz +2 do ataku
+Mikstura leczenia|consumable|50|Przywraca 10 HP
+Tarcza|armor|100|Zwiększa obronę o 1
+Amulet|accessory|200|Odporność na truciznę

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{da04952a-5619-4e90-bebb-4f2d411baeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{05d3f5d4-3ed6-4ad1-baa0-a242ba8811ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{f3e7104a-a56a-4818-9912-8f966d37066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\fonts">
+      <UniqueIdentifier>{5c7964f2-1fae-49e0-8b5a-ee781eb96121}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CombatTracker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_functions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DmNotes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\DungeonBuilderProject\DungeonBuilderProject\data\effects.db">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\DungeonBuilderProject\DungeonBuilderProject\data\monsters.db">
+      <Filter>data</Filter>
+    </None>
+    <None Include="items.txt">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\Downloads\DejaVuSans.ttf">
+      <Filter>assets\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonMap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonGenerator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatTracker.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="DmNotes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <Filter>src</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

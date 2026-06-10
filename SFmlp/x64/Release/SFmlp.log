@@ -1,0 +1,4 @@
+﻿  CMakeCXXCompilerId.cpp
+\Downloads\DungeonBuilderProject\DungeonBuilderProject\build\CMakeFiles\3.31.6\CompilerIdCXX\CMakeCXXCompilerId.cpp(1,1): error C1083: Nie można otworzyć pliku źródło: '..\..\..\..\Downloads\DungeonBuilderProject\DungeonBuilderProject\build\CMakeFiles\3.31.6\CompilerIdCXX\CMakeCXXCompilerId.cpp': No such file or directory
+  (kompilowanie pliku źródłowego „/Downloads/DungeonBuilderProject/DungeonBuilderProject/build/CMakeFiles/3.31.6/CompilerIdCXX/CMakeCXXCompilerId.cpp”)
+  
