@@ -2,7 +2,7 @@
 
 Aplikacja wspomagająca Mistrza Gry (DM) napisana w języku **C++** z wykorzystaniem biblioteki **SFML (w wersji 3.0.2)**. Program łączy w sobie funkcje edytora map lochów, managera walki, bazy potworów, kreatora sklepu oraz systemu notatek sesyjnych.
 
----
+
 
 ## 1. Architektura Systemu i Przepływ Danych
 
@@ -24,7 +24,6 @@ Program opiera się na architekturze modułowej zarządzanej przez maszynę stan
 
 ```
 
----
 
 ## 2. Opis Modułów i Klas
 
@@ -34,7 +33,6 @@ Program opiera się na architekturze modułowej zarządzanej przez maszynę stan
 * **`App`**: Klasa pełniąca rolę fasady. Przechowuje instancje obiektów `DungeonMap`, `DungeonGenerator`, `CombatTracker` oraz `Database`, udostępniając je poprzez referencje.
 * **`utils` (Przestrzeń nazw)**: Zawiera funkcje pomocnicze do przetwarzania tekstu (`trim`, `split`) oraz bezpiecznego odczytu strumienia wejściowego z konsoli (`readInt`).
 
----
 
 ### Moduł Mapy i Generatora (`DungeonMap`, `DungeonGenerator`)
 
@@ -52,7 +50,6 @@ Odpowiada za renderowanie dwuwymiarowej siatki kafelków oraz automatyczne tworz
 
 
 
----
 
 ### Moduł Walki (`CombatTracker`)
 
@@ -66,7 +63,6 @@ Klasa zarządzająca kolejnością inicjatywy oraz stanem zdrowia uczestników s
 
 
 
----
 
 ### Moduł Baz Danych (`Database`)
 
@@ -79,7 +75,6 @@ Odpowiada za wczytywanie zewnętrznych szablonów obiektów gry.
 
 * W przypadku braku plików komponent automatycznie wywołuje metodę `loadDefaults()`, zabezpieczając aplikację przed crashem.
 
----
 
 ### Moduł Sklepu (`Shop`)
 
@@ -93,7 +88,6 @@ Zarządza ekspozycją przedmiotów oraz nietypowym systemem walutowym.
 
 
 
----
 
 ### Moduł Notatek (`DmNotes`)
 
@@ -106,7 +100,6 @@ System wirtualnej tablicy korkowej podzielonej na sesje RPG.
 
 
 
----
 
 ## 3. Sterowanie i Interfejs Użytkownika
 
@@ -135,7 +128,6 @@ Program jest sterowany hybrydowo przy użyciu myszy i klawiatury. Poniższe tabe
 | **7** | Usuń poległe postacie (HP = 0) |
 | **8** | Wyczyść całe starcie |
 
----
 
 ## 4. Specyfikacja Formatów Zapisu Plików
 
@@ -159,3 +151,5 @@ Tarcza|armor|1250|Obrona +1
 Amulet|accessory|10500|Moc magiczna
 
 ```
+
+Plik exe znajduje się w folderze build
